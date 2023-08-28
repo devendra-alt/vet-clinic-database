@@ -23,7 +23,7 @@
 
 # 📖 Vet-Clinic-database <a name="about-project"></a>
 
-**Vet-Clinic-database** is a postgreSQL database containg required tables for clinic data
+**Vet-Clinic-database** is a PostgreSQL database containing required tables for clinic data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +56,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- postgreSQL
+- PostgreSQL
 - SQL SHELL
 
 ### Setup
@@ -83,9 +83,9 @@ To run the project, execute the following command:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@devendra-alt](https://github.com/devendra-alt)
+- Twitter: [@Devendra5101](https://twitter.com/Devendra5101)
+- LinkedIn: [Devendra Mulewa](https://linkedin.com/in/devendramulewa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +94,7 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Adding AUTO PRIMARY KEY ON TABLES**
-- [ ] **Adding Relations Using Foregin Key**
+- [ ] **Adding Relations Using Foreign Key**
 - [ ] **Perform DATABASE AUDIT**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +121,7 @@ If you like this project please give it a star ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @microverse.
+I want to thank @microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +129,6 @@ I would like to thank @microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
