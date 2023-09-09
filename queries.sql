@@ -82,8 +82,7 @@ SELECT COUNT(animals.id) as no_of_animals,owners.full_name as owners_name FROM a
 
 SELECT animals.name AS animal_name FROM animals JOIN visits ON visits.animal_id = animals.id JOIN vets ON visits.vet_id  = vets.id WHERE vets.name = 'William Tatcher' ORDER BY visits.visit_date DESC LIMIT 1;
 
-SELECT COUNT(DISTINCT visits.animal_id) AS no_animals_seen FROM visits JOIN vets ON visits.vet_id = vets.id WHERE vets.n
-ame = 'Stephanie Mendez';
+SELECT COUNT(DISTINCT visits.animal_id) AS no_animals_seen FROM visits JOIN vets ON visits.vet_id = vets.id WHERE vets.name = 'Stephanie Mendez';
 
 SELECT vets.name,species.name FROM specializations RIGHT JOIN vets ON vets.id = specializations.vet_id LEFT JOIN species ON species.id  = specializations.species_id;
 
