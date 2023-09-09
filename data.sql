@@ -26,6 +26,7 @@ INSERT INTO species (name) VALUES ('Digimon')
 UPDATE animals SET species_id = 2 WHERE TRIM(name) LIKE '%mon';
 UPDATE animals SET species_id = 1 WHERE TRIM(name) NOT LIKE '%mon';
 
+UPDATE animal SET owner_id = (SELECT ID FROM owner WHERE TRIM(full_name) LIKE 'Sam Smith') WHERE TRIM(name) LIKE 'Agumon';
 UPDATE animals SET owner_id = (SELECT ID FROM owners WHERE TRIM(full_name) LIKE 'Jennifer Orwell') WHERE TRIM(name) LIKE 'Gabumon';
 UPDATE animals SET owner_id = (SELECT ID FROM owners WHERE TRIM(full_name) LIKE 'Jennifer Orwell') WHERE TRIM(name) LIKE 'Pikachu';
 UPDATE animals SET owner_id = (SELECT ID FROM owners WHERE TRIM(full_name) LIKE 'Bob') WHERE TRIM(name) LIKE 'Devimon';

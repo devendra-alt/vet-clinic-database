@@ -64,8 +64,7 @@ SELECT animal.id as animal_id, name as animal_name, full_name  as owner_name FRO
 
 -- 
 
-SELECT animals.name as animal_name,owners.full_name as owner_name from animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody P
-ond';
+SELECT animals.name as animal_name,owners.full_name as owner_name from animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody Pond';
 
 SELECT animals.name as animal_name,species.name as species_name from animals JOIN species ON animals.species_id = species.id WHERE species.name = 'Pokemon';
 
@@ -77,4 +76,7 @@ SELECT animals.name as animal_name,species.name as species_name,owners.full_name
 
 SELECT animals.name as animal_name,owners.full_name as owner_name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE animals.escape_attempts = 0 AND owners.full_name = 'Dean Winchester';
 
- SELECT COUNT(animals.id) as no_of_animals,owners.full_name as owners_name FROM animals JOIN owners ON animals.owner_id = owners.id GROUP BY owners.full_name ORDER BY no_of_animals DESC;
+SELECT COUNT(animals.id) as no_of_animals,owners.full_name as owners_name FROM animals JOIN owners ON animals.owner_id = owners.id GROUP BY owners.full_name ORDER BY no_of_animals DESC;
+
+
+
